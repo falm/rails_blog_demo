@@ -1,0 +1,23 @@
+<div id="sign up">
+  <h2>User Register</h2>
+  <%= form_for @user do |f| -%>
+    <table>
+      <tr>
+        <td>username:</td>
+        <td><%= f.text_field :username %></td>
+      </tr>
+      <tr>
+        <td>password:</td>
+        <td><%= f.password_field :password %></td>
+      </tr>
+      <tr>
+        <td>repassword:</td>
+        <td><%= f.password_field :password_confirmation %></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><%= f.submit "Register" %></td>
+      </tr>
+    </table>
+  <% end %>
+</div>
