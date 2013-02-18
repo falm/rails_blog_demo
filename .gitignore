@@ -15,3 +15,5 @@
 /tmp
 *.swp
 *~
+# Ignore database configure file 
+/config/database.yml
