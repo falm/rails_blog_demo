@@ -1,0 +1,21 @@
+<div hclass="content">
+  <h1>Show product</h1>
+  <table>
+      <tr>
+        <td>Name:</td>
+        <td><%= product.name%></td>
+      </tr>
+      <tr>
+        <td>Price:</td>
+        <td><%= product.price %></td>
+      </tr>
+      <tr>
+        <td>Descripton:</td>
+        <td><%= product.description %></td>
+      </tr>
+      <tr>
+        <td><%= link_to "Edit", edit_product_path(product) %></td>
+        <td><%= link_to "Back", products_path%></td>
+      </tr>
+  </table>
+</div>

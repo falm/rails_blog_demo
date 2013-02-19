@@ -1,0 +1,13 @@
+<div hclass="content">
+  <h1>Product</h1>
+  <table>
+    <% products.each do |product|%>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= link_to "Show", product %></td>
+        <td><%= link_to "Edit", edit_product_path(product) %></td>
+        <td><%= link_to "Destory", product, method: :delete%></td>
+      </tr>
+    <% end %>
+  </table>
+</div>

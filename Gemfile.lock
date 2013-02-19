@@ -44,6 +44,7 @@ GEM
       execjs
     coffee-script-source (1.4.0)
     debug_inspector (0.0.2)
+    decent_exposure (2.1.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -115,6 +116,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 3.2.1)
+  decent_exposure
   jquery-rails
   mysql2
   rails (= 3.2.11)

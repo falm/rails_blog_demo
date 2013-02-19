@@ -4,4 +4,5 @@ Blog::Application.routes.draw do
   end
   resources :sessions
   resources :users
+  resources :products
 end 

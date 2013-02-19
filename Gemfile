@@ -18,7 +18,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'decent_exposure'
 group :development do 
    gem 'mysql2'
    gem 'better_errors'
