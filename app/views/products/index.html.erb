@@ -1,13 +1,25 @@
-<div hclass="content">
+<div class="content">
   <h1>Product</h1>
-  <table>
+  <table id="products" class="display">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Price</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
     <% products.each do |product|%>
       <tr>
         <td><%= product.name %></td>
+        <td><%= product.price %></td>
         <td><%= link_to "Show", product %></td>
         <td><%= link_to "Edit", edit_product_path(product) %></td>
         <td><%= link_to "Destory", product, method: :delete%></td>
       </tr>
     <% end %>
+    </tbody>
   </table>
 </div>

@@ -14,3 +14,4 @@
 //= require jquery_ujs
 //= require_tree ./common
 //= require_directory .
+//= require dataTables/jquery.dataTables

@@ -14,15 +14,17 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+	gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails' 
+	gem 'jquery-ui-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 
 gem 'jquery-rails'
 gem 'decent_exposure'
 group :development do 
-   gem 'mysql2'
-   gem 'better_errors'
-	 gem 'binding_of_caller'
+  gem 'mysql2'
+  gem 'better_errors'
+	gem 'binding_of_caller'
 end
 
 # To use ActiveModel has_secure_password
